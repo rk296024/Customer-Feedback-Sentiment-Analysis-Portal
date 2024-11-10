@@ -6,7 +6,7 @@ Here's a properly formatted `README.md` file for direct copy-pasting:
 This project is a FastAPI-based application for analyzing user feedback sentiments using the Hugging Face Transformers library and OpenAI API. It integrates with Supabase for data storage and offers an admin interface for sentiment analysis.
 
 ## Features
-- **Sentiment Analysis**: Analyze feedback sentiments with OpenAI GPT-3.5 API and a local fallback model from Hugging Face.
+- **Sentiment Analysis**: Analyze feedback sentiments with OpenAI GPT-3.5 API and a local fallback model from Hugging Face(when unable to generate through Open AI then transformer model will work to ensure performance ).
 - **Feedback Storage**: Save user feedback in Supabase and retrieve it for analysis.
 - **Admin Panel**: Restricted access to a sentiment analysis dashboard for authorized users.
 - **Environment Variables**: Secure API keys with a `.env` file.

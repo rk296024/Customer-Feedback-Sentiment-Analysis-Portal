@@ -51,7 +51,7 @@ This project is a FastAPI-based application for analyzing user feedback sentimen
 │   ├── index.html             # User feedback submission page
 │   ├── admin_analysis.html    # Admin login page
 │   └── analysis.html          # Admin analysis dashboard
-├── .env                       # Environment variables (not tracked in Git)
+├── .env                       # Environment variables stored keys (not tracked in Git)
 ├── requirements.txt           # Project dependencies
 └── README.md                  # Project documentation
 ```

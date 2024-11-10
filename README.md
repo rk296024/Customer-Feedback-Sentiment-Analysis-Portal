@@ -76,6 +76,7 @@ This project is a FastAPI-based application for analyzing user feedback sentimen
 4. **Submit Feedback**:
    - Enter feedback and a user ID on the main page.
    - The feedback will be analyzed, and the sentiment will be stored in Supabase.
+6. **Stucture.txt**: showing all files in a directory when deployed.
 
 ## Updating Requirements
 To update `requirements.txt` after adding new dependencies:
